@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Capability definitions</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Capability definitions </h1>
+			<!-- <img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../EA3.html">Representations</a> / <a href="EA384.html">Creation Viewpoint</a> / <a href="EA376.html">Capability definitions</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../images/182.png" alt="Diagram"/> <a href="EA376.html">Capability definitions</a></li>
+<li><img src="../../images/182.png" alt="Diagram"/> <a href="EA378.html">Design space</a></li>
+<li><img src="../../images/182.png" alt="Diagram"/> <a href="EA380.html">Orchestration</a></li>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA382.html">Interactions</a></li>
+<li><img src="../../images/6.png" alt="Actor"/> <a href="EA441.html">Observer</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA396.html">Architectural elements</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA397.html">Architecture artifacts</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA402.html">Artifacts</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA405.html">Bill of materials</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA406.html">Capabilities</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA407.html">Classes</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA408.html">Conceptual</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA409.html">Configuration</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA411.html">Context</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA413.html">Data model</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA414.html">Definition</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA415.html">Design</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA387.html">Dogmatism</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA417.html">Element</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA418.html">External systems</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA419.html">External systems</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA421.html">Features</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA422.html">Findings</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA424.html">Functional objects</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA425.html">Functions</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA426.html">Guidance</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA427.html">Identifiers</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA428.html">Implementation</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA430.html">Installations</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA431.html">Interactions</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA432.html">Interfaces</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA435.html">Issues</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA437.html">List of Elements in Diagram Architecture definition elements</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA438.html">Logical</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA440.html">Objectives</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA442.html">Operations</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA444.html">Payloads</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA445.html">Physical</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA446.html">Ports</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA447.html">Processes</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA448.html">Product</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA449.html">Protocols</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA452.html">Scenarios</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA454.html">Signatures</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA390.html">Skepticism</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA455.html">Solutions</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA456.html">Spatial envelopes</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA458.html">States</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA459.html">System of interest</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA460.html">System Requirements</a></li>
+<li><img src="../../images/5.png" alt="Class"/> <a href="EA461.html">Transmission medium</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA393.html">:Nodes</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA394.html">:Payloads</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA395.html">:Roles</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA385.html">:Structure</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA403.html">As built: Configuration</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA404.html">As designed: Configuration</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA410.html">Configuration definition: Configuration</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA412.html">Core features: Features</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA416.html">Design specifications: Constraints</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA420.html">Failure: Scenarios</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA429.html">Inputs/outputs: Ports</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA434.html">Interfacing: External systems</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA436.html">Leverage points: Operations</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA439.html">Normal: Scenarios</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA443.html">Pathways: Transport elements</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA451.html">Resiliency: Scenarios</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA457.html">Stakeholder needs: Requirements</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA462.html">Value proposition: Concepts</a></li>
+<li><img src="../../images/118.png" alt="Part"/> <a href="EA386.html">:Structure</a></li>
+<li><img src="../../images/99.png" alt="UMLDiagram"/> <a href="EA398.html">Architecture definition</a></li>
+<li><img src="../../images/99.png" alt="UMLDiagram"/> <a href="EA399.html">Architecture definition</a></li>
+<li><img src="../../images/99.png" alt="UMLDiagram"/> <a href="EA400.html">Architecture definition</a></li>
+<li><img src="../../images/99.png" alt="UMLDiagram"/> <a href="EA401.html">Architecture definition</a></li>
+<li><img src="../../images/118.png" alt="Part"/> <a href="EA388.html">Property1: Structure</a></li>
+<li><img src="../../images/118.png" alt="Part"/> <a href="EA389.html">Property2: Structure</a></li>
+<li><img src="../../images/52.png" alt="Issue"/> <a href="EA453.html">See if the ::System can be removed</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA377.png" usemap="#EA377" border="0" />
+
+<MAP NAME="EA377">
+<area shape="rect" coords="517,312,583,341" href="EA485.html" target="_self">
+<area shape="rect" coords="517,350,583,407" href="EA483.html" target="_self">
+<area shape="rect" coords="435,349,501,406" href="../EA3/EA254.html" target="_self">
+<area shape="rect" coords="435,312,501,340" href="EA482.html" target="_self">
+<area shape="rect" coords="422,259,593,417" href="EA481.html" target="_self">
+<area shape="rect" coords="356,290,412,318" href="EA479.html" target="_self">
+<area shape="rect" coords="356,354,412,382" href="EA480.html" target="_self">
+<area shape="rect" coords="347,75,622,145" href="EA492.html" target="_self">
+<area shape="rect" coords="347,204,622,444" href="../EA3/EA250.html" target="_self">
+<area shape="rect" coords="72,85,138,117" href="EA494.html" target="_self">
+<area shape="rect" coords="683,183,759,253" href="EA493.html" target="_self">
+<area shape="rect" coords="189,334,265,358" href="EA468.html" target="_self">
+<area shape="rect" coords="102,334,182,360" href="EA469.html" target="_self">
+<area shape="rect" coords="82,285,285,378" href="EA473.html" target="_self">
+<area shape="rect" coords="62,233,305,406" href="EA495.html" target="_self">
+<area shape="rect" coords="10,10,796,530" href="EA376.html" target="_self">
+</MAP>
+ </div>
+</div> </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

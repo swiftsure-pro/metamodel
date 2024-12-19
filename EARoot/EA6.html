@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Adaptation Viewpoint</title>
+<link href="../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Adaptation Viewpoint </h1>
+			<!-- <img class="header_image" src="../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="EA3.html">Representations</a> / <a href="./EA3/EA266.html">Adaptation Viewpoint</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../images/182.png" alt="Diagram"/> <a href="./EA3/EA250.html">Resources</a></li>
+<li><img src="../images/175.png" alt="Diagram"/> <a href="./EA3/EA248.html">Structural elements</a></li>
+<li><img src="../images/182.png" alt="Diagram"/> <a href="./EA3/EA254.html">System context</a></li>
+<li><img src="../images/175.png" alt="Diagram"/> <a href="./EA3/EA256.html">Architecture Metamodel</a></li>
+<li><img src="../images/182.png" alt="Diagram"/> <a href="./EA3/EA258.html">Architecture definition</a></li>
+<li><img src="../images/175.png" alt="Diagram"/> <a href="./EA3/EA260.html">Requirements metamodel</a></li>
+<li><img src="../images/175.png" alt="Diagram"/> <a href="./EA3/EA262.html">Risk metamodel</a></li>
+<li><img src="../images/175.png" alt="Diagram"/> <a href="./EA3/EA264.html">Verification metamodel</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA292.html">Applicability</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA293.html">Areas of responsibility</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA294.html">Builds</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA295.html">Concerns</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA296.html">Contributing causes</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA297.html">Coverage analysis</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA299.html">Environments</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA300.html">Events</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA301.html">Impact assessment</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA302.html">Issues</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA303.html">Library viewpoint</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA273.html">Mental models</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA274.html">Metaphysical Grounding</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA275.html">Mind and Consciousness</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA304.html">Mitigation activities</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA305.html">Model</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA276.html">Possibility and Necessity</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA312.html">Purpose</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA313.html">Quality criterion</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA314.html">Rationale</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA315.html">ReqID</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA321.html">Reqmts substantiation</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA324.html">Requirements</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA332.html">Risk management</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA335.html">Risk substantiation</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA338.html">RiskID</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA339.html">Risks</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA340.html">Satisfaction of entry criteria</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA281.html">Space and Time</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA344.html">Stakeholder needs</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA345.html">Structure</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA347.html">Talent</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA283.html">Universals and Particulars</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA348.html">V&V activities</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA349.html">V&V data</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA350.html">V&V Methods</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA351.html">V&V network</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA352.html">V&V procedures</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA353.html">Version identifier</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA354.html">View</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA355.html">Viewpoints</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="./EA3/EA356.html">Work package</a></li>
+<li><img src="../images/25.png" alt="Object"/> <a href="./EA3/EA306.html">Operational: Environments</a></li>
+<li><img src="../images/25.png" alt="Object"/> <a href="./EA3/EA341.html">Simulated: Environments</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="./EA3/EA298.html">Determination of compliance</a></li>
+<li><img src="../images/99.png" alt="UMLDiagram"/> <a href="./EA3/EA272.html">Interactions</a></li>
+<li><img src="../images/118.png" alt="Part"/> <a href="./EA3/EA316.html">Reqmts affected parties</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="./EA3/EA317.html">Reqmts approval state</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="./EA3/EA318.html">Reqmts areas of concern</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="./EA3/EA319.html">Reqmts characterization</a></li>
+<li><img src="../images/118.png" alt="Part"/> <a href="./EA3/EA320.html">Reqmts primary owner</a></li>
+<li><img src="../images/118.png" alt="Part"/> <a href="./EA3/EA322.html">Reqmts text</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="./EA3/EA323.html">Reqmts type</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="./EA3/EA325.html">Risk acceptance state</a></li>
+<li><img src="../images/118.png" alt="Part"/> <a href="./EA3/EA326.html">Risk affected parties</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="./EA3/EA327.html">Risk areas of concern</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="./EA3/EA328.html">Risk characterization</a></li>
+<li><img src="../images/118.png" alt="Part"/> <a href="./EA3/EA329.html">Risk Consequences</a></li>
+<li><img src="../images/118.png" alt="Part"/> <a href="./EA3/EA330.html">Risk Exposure</a></li>
+<li><img src="../images/118.png" alt="Part"/> <a href="./EA3/EA331.html">Risk likelihood of occurrence</a></li>
+<li><img src="../images/118.png" alt="Part"/> <a href="./EA3/EA333.html">Risk primary owner</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="./EA3/EA334.html">Risk priority</a></li>
+<li><img src="../images/118.png" alt="Part"/> <a href="./EA3/EA336.html">Risk text</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="./EA3/EA337.html">Risk type</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="./EA3/EA342.html">Stage of reqmts dev</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="./EA3/EA343.html">Stage of risk dev</a></li>
+<li><img src="../images/99.png" alt="UMLDiagram"/> <a href="./EA3/EA282.html">System context</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="./EA3/EA346.html">System hierarchy</a></li>
+<li><img src="../images/99.png" alt="UMLDiagram"/> <a href="./EA3/EA284.html">Verification metamodel</a></li>
+<li><img src="../images/99.png" alt="UMLDiagram"/> <a href="./EA3/EA285.html">Verification metamodel</a></li>
+<li><img src="../images/99.png" alt="UMLDiagram"/> <a href="./EA3/EA286.html">Verification metamodel</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Adaptation Viewpoint  : Public   Package</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">12/15/2016 2:17:41 PM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">10/20/2024 10:03:58 AM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">bryan</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{1A76749F-041D-4979-80A5-D15DEC2D708D}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA1.html">Namespace visibility</a>, <a href="./EA3/EA256.html">Architecture Metamodel</a>, <a href="./EA3/EA264.html">Verification metamodel</a>, <a href="./EA3/EA262.html">Risk metamodel</a>, <a href="./EA3/EA260.html">Requirements metamodel</a>, <a href="./EA3/EA258.html">Architecture definition</a>, <a href="./EA3/EA254.html">System context</a>, <a href="./EA3/EA250.html">Resources</a></td>
+		</tr>
+	</table>
+	
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent != null ? parent.toggleItem('Links') : toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+		<div class="ItemBody" id="LinksTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="./EA5/EA519.html">Refinement Viewpoint</a></td>
+					<td width="10%" class="TableRow" valign="top">Package</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+
