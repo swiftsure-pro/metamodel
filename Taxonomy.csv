@@ -1,0 +1,733 @@
+Name,Notes
+Navigation viewpoint,
+Adaptation Viewpoint,
+Innovation Viewpoint,
+Synthesis Viewpoint,
+Conceptual viewpoint,
+,
+Constraints,
+Improvement Initiatives,
+Programs,
+Business scenarios,
+Businesses,
+Uncertainty,
+Baselines,
+Quality escapes,
+Customers,
+Solutions,
+Needs,
+Processes,
+Projects,
+Work packages,
+Methods,
+Priorities,
+Commitments,
+Metrics,
+Work units,
+Effort,
+Locations,
+Conditions,
+ProxyConnector,
+Conclusions,
+Concensus,
+Communications,
+,
+,
+,
+,
+,"<font color=""#000080""><b>SwiftSure.Pro</b></font>
+<font color=""#0000ff"">Version 2025-1</font>"
+InformationItem1,
+Endeavors,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+Means of production,
+Factors of production,
+Contributing causes,
+Risk workflow state,
+Risk areas of concern,
+Risk characterization,
+Risk type,
+Stage of risk dev,
+Risk management,
+Risk affected parties,
+Risk primary owner,
+Risk definition,
+Mitigation activities,
+Mitigation status,
+Mitigation activity owner,
+Mitigation activity,
+,
+,
+,
+,
+Risk priority,
+RiskID,Requirements Identifier
+Applicability,
+ProxyConnector,
+Risk substantiation,
+Rationale,
+Notes,
+Context,
+ProxyConnector,
+,Need to decide how to manage 'ideas' and how to feather in other non-material elements like stores of value (money)
+Impact assessment,
+Operational,
+Simulated,
+ProxyConnector,
+,
+ProxyConnector,
+Structure,
+Purpose,
+Satisfies,
+Reqmts definition,
+Risks,
+Adaptation viewpoint,
+Rationale,
+State of reqmts dev,
+Reqmts areas of concern,
+Impact characterization,
+Reqmts affected parties,
+Reqmts approval state,
+V&V activities,
+Determination of compliance,
+Risk Exposure,
+Likelihood,
+Consequences,
+V&V Methods,
+System hierarchy,
+ProxyConnector,
+Influences,
+,"Need to incorporate notions of agents, competency, levels of experience, knowledge, decision-making, aptitude, and skills."
+Work package,
+V&V procedures,
+V&V network,The preconditions necessary for procedures to be performed.
+Satisfaction of entry criteria,
+V&V data,
+Issues,
+Builds,
+Coverage analysis,
+Reqmts substantiation,
+Notes,
+Rationale,
+Version identifier,
+Reqmts type,
+ReqID,Requirements Identifier
+Reqmts primary owner,
+Talent,
+Jobs,
+Environment,"The surrounding conditions, context, and external influences that affect entities, agents, or systems"
+Events,"Occurrences or happenings that involve changes in substances or their properties. They are often seen as the dynamic aspect of reality.
+&nbsp;
+<ul>
+	<li><b>Temporal Events</b>: Events that occur within time, such as a leaf falling from a tree.</li>
+</ul>
+
+<ul>
+	<li><b>Timeless Events</b>: Philosophically debated, these refer to occurrences that are outside the usual flow of time.</li>
+</ul>"
+Organizational entities,
+,"e.g.
+Correctness, completeness, consistency, etc."
+Concerns,
+Model,
+Areas of responsibility,
+Quality criterion,
+View,
+Roles,
+Stakeholder needs,
+Viewpoints,
+Requirements,
+Creation Viewpoint : Interactions,Creation Viewpoint : Interactions
+,
+System context,
+Adaptation Viewpoint : System context,Adaptation Viewpoint : System context
+Creation Viewpoint : Interactions,Creation Viewpoint : Interactions
+Interactions,
+Verification metamodel,
+Verification metamodel,
+Verification metamodel,
+ProxyConnector,
+ProxyConnector,
+$inet://swiftsure.substack.com/p/Resources,
+ProxyConnector,
+Mental models,"Cognitive frameworks or representations that aid in understand and interpretting the world, predicting outcomes, and guiding behavior."
+Space and Time,"Space and time are the frameworks within which physical reality is structured.
+&nbsp;
+<ul>
+	<li><b>Space</b>: The three-dimensional continuum in which objects are located and interact.</li>
+</ul>
+
+<ul>
+	<li><b>Time</b>: The linear progression of events from the past, through the present, to the future. Some metaphysical perspectives consider time to be another dimension, much like space.</li>
+</ul>"
+Causality,"Causality is the principle that events occur as a result of other events or states of affairs. It establishes a relationship between cause and effect.
+&nbsp;
+<ul>
+	<li><b>Efficient Causes</b>: Causes that bring something into existence or effect a change.</li>
+</ul>
+
+<ul>
+	<li><b>Final Causes</b>: The purpose or end for which something is done, a concept especially highlighted in Aristotelian philosophy.</li>
+</ul>"
+Universals and Particulars,a classical metaphysical distinction about the nature of properties and entities
+Possibility and Necessity,"These concepts deal with the nature of existence and non-existence.
+&nbsp;
+<ul>
+	<li><b>Possible Worlds</b>: Hypothetical realities that represent different ways things could have been.</li>
+</ul>
+
+<ul>
+	<li><b>Necessary Existence</b>: Entities that must exist in any possible world, such as mathematical truths or logical laws.</li>
+</ul>"
+Mind and Consciousness,"This component explores the nature of the mind and its relationship to reality.
+&nbsp;
+<ul>
+	<li><b>Dualism</b>: The view that mind and matter are distinct substances.</li>
+</ul>
+
+<ul>
+	<li><b>Monism</b>: The belief that only one kind of substance exists, with variations like materialism (only matter exists) and idealism (only mind exists).</li>
+</ul>"
+Ontology,"The study of being and existence that seek to categorize and understand the nature of entities and their modes of existence.
+&nbsp;
+<ul>
+	<li><b>Realism</b>: The belief that entities exist independently of perception.</li>
+</ul>
+
+<ul>
+	<li><b>Nominalism</b>: The view that universals are mere names without inherent reality.</li>
+</ul>"
+Metaphysical Grounding,"This concept involves the basis upon which reality is constructed.
+&nbsp;
+<ul>
+	<li>F<b>undamental Entities</b>: The basic building blocks of reality that everything else depends on.</li>
+</ul>
+
+<ul>
+	<li><b>Grounding Relations</b>: The hierarchical structure that explains how higher-level phenomena arise from more fundamental ones.</li>
+</ul>"
+,"<font color=""#000080""><b>SwiftSure.Pro</b></font>
+<font color=""#0000ff"">Version 2025-1</font>"
+ProxyConnector,
+,"<font color=""#000080""><b>SwiftSure.Pro</b></font>
+<font color=""#0000ff"">Version 2025-1</font>"
+Simplified,
+Contextualized,
+Dynamical,
+Solutions,
+,
+,
+,
+Stakeholder needs,
+Rules,
+Standards,
+Findings,
+Teams,
+Signatures,
+People,
+Optional,
+Standards,
+Core features,
+Value proposition,
+Operations,
+Configuration,
+Configuration definition,
+Leverage points,
+Pathways,
+Inputs/outputs,
+,
+,
+Interfacing,
+Design specifications,
+System architecture,
+System architecture,
+List of Elements in Diagram Architecture definition elements,
+System architecture,
+System architecture,
+,
+Bill of materials,
+As designed,
+As built,
+Normal,
+Resiliency,
+Failure,
+System Requirements,
+See if the ::System can be removed,
+Data model,
+Logical,
+Physical,
+Definition,
+Product,
+Embodiment,
+Design,
+Conceptual,
+Systems,
+Functional design,
+,
+System of interest,
+External systems,
+Has,
+Rules,
+Inhabits,
+Has an,
+Guidance,
+Guidance,
+Agreements,
+Architecture artifacts,
+Architecture,
+Organized by,
+,
+Agreements,
+Participates in,
+Resources,
+Performers,
+Capabilities,
+Conditions,
+Architectural elements,
+Capabilities,
+Operational envelopes,
+Protocols,
+Competencies,
+Artifacts,
+Features,
+Basic,
+Pre-engineered,
+Customizable,
+Context,"the interpretive framework  and corresponding knowledge, experience, and perspective that give meaning to facts, actions, or ideas and promotes understanding of why something matters, how it fits into a bigger picture, or what it implies.
+"
+Information,"Data that has been processed and organized in a way that is meaningful for use in the form of facts, figures, and narratives."
+Categorized,
+Verified,
+Condensed,
+Observer,
+Installations,
+Physical envelopes,
+,
+Identifiers,
+Issues,
+Behaviors,
+,
+Activities,
+States,
+Categories,
+Element,
+Transmission medium,
+Payloads,
+Functional objects,
+Interactions,
+Transport elements,
+Objectives,
+Ports,
+Operational Procedures,
+Processes,
+Scenarios,
+Services,
+Functions,
+Interfaces between elements,
+ProxyConnector,
+Structure,
+,
+Material,Any substace or mixture of substances that has physical properties and is used for making things.
+,
+Actions,
+Dogmatism,
+Skepticism,
+,
+,
+,
+Contextualized,
+Communicatible,
+ProxyConnector,
+Methods,
+Methods,
+Systems,
+Subsystems,
+Components,
+Parent system,
+,
+Filters,
+Equipment,
+,
+,
+Mathematical,
+Scientific,
+Philosophical,
+Architecture Metamodel,
+Architecture Metamodel,
+Architecture Metamodel,
+Requirements metamodel,
+Property1,
+Beliefs,
+,
+Mechanical,
+Electrical,
+Gravitational,
+Chemical,
+Radiant,
+Machinery,
+Elastic,
+Thermal,
+Forces,
+Drag,
+Torque,
+Thrust,
+Stress,
+Equipment,
+Raw material,
+Processed material,
+,
+Organizing principles,
+Evidence,"Anything presented in support of an assertion, as described <a href=""$inet://https://en.wikipedia.org/wiki/Evidence""><font color=""#0000ff""><u>here</u></font></a>."
+Arguments,"Arguments deal with whether claims are true or not, providing reasons to support that claim and implying that the premises make it reasonable to accept the conclusion. In contrast, an explanation describes the mechanism by which something happens, providing causal theories for why something could happen. Explanations may themselves be true or not (i.e. explain adequately why something happens), but they cannot be used as evidence to believe a claim – they make it plausible, but not certain. 
+
+"
+Claims,"An <a href=""$inet://https://en.wikipedia.org/wiki/Idea""><font color=""#0000ff""><u>idea</u></font></a> that someone is trying to convince someone else is true, and which is debatable."
+Authorities,
+Authoritative sources of truth,
+Reputation,
+Hardware,
+Discipline Owners,
+Software,
+Control element,
+ProxyConnector,
+Domain knowledge,
+Time,
+Tools,
+Work products,
+History,
+ProxyConnector,
+Methods,
+Matter,The general term for anything that has mass and occupies space
+Theories,
+Ecosystems,
+Energy,
+ProxyConnector,
+Testimony,
+Mass,
+Motion,
+Position,
+Shape,
+,
+Phase,
+Liquid,"Has a definite volume but takes the shape of its container. Particles are less tightly packed than in solids. Examples: Water, oil"
+Solid,"Has a definite shape and volume. Particles are tightly packed. Examples: Ice, iron
+"
+ProxyConnector,
+Gas,"Has no definite shape or volume. Particles are spread out and move freely. Examples: Oxygen, nitrogen"
+ProxyConnector,
+Plasma,"Ionized gas with free electrons. High-energy state found in stars, neon signs. Examples: Sun, lightning."
+ProxyConnector,
+Artifacts,"<ul>
+	<li><b>Cultural Items</b>: Art, literature, music.</li>
+	<li><b>Historical Artifacts</b>: Ancient tools, manuscripts, relics.</li>
+	<li><b>Production artifacts</b>: Plans, Designs, Reports, Data</li>
+</ul>"
+ProxyConnector,
+Treasure,
+Property2,
+Best practices,
+Testimony,
+Predictions,
+Configurations,
+Culture,
+Survey,
+Survey,
+End,
+ActionPin1,
+Data collection,
+Verification metamodel,
+Verification metamodel,
+,
+target,
+,"<font color=""#000080""><b>SwiftSure.Pro</b></font>
+<font color=""#0000ff"">Version 2025-1</font>"
+Ideological,
+Language,
+Ontological foundation,
+Facts,"Statements that can be proven true or false, are consistent with objective reality, and are specific, verifiable, and represent a concrete piece of information; typically derived from observations, evidence, experiments, and reliable sources."
+Reality,"The aggregation of all that is real or existent, grounded in the physical universe, and the laws that govern it. The state of things as they actually are, independent of perception, beliefs, or theories, whether observable or beyond human comprehension."
+Perceptions,"the organization, identification, and interpretation of sensory information in order to represent and understand the presented information, or the environment, as described <a href=""$inet://https://en.wikipedia.org/wiki/Perception""><font color=""#0000ff""><u>here</u></font></a>"
+Signifiers,
+,
+Experiences,
+Phrases,
+Signs,
+,
+,
+,
+$inet://https://en.wikipedia.org/wiki/Semantics,
+,Particular instances of things with extensions in space and time
+,"Idealized, holistic universals, the abstract classes into which we mentally organize reality"
+Aggregations,"Aggregation represents a ""whole-part"" relationship where the part can exist independently of the whole. It's often referred to as a ""weak"" relationship.
+
+Represented by solid line with hollow diamond at owner end"
+Compositions,"Represents a ""whole-part"" relationship where the part cannot exist independently of the whole. It's often referred to as a ""strong"" relationship.
+
+Represented by solid line with filled diamond at owner end
+"
+,Substances can survive changes to their part instances in a way that mere aggregations of parts cannot
+Changes,
+Causal chains,A sequence of events where the results of each activity depend upon prior results of earlier activities and influence subsequent ones. This concept is fundamental to understanding how one action or event can lead to a series of consequences.
+,Items of definition or reference
+Material,
+Structure,
+Behavior,
+Quantitative,
+Qualitative,
+Implementation,
+Noise,
+Persistence,
+,"While bundles of properties come and go, a particular thing is a succession of such bundles which have a continuity running throughout"
+Existential,
+,The recombinations that are merely possible have no concrete existence.
+,"Where do absences, lacks, edges, emptinesses, limits, holes, zeros, missings, voids, and endings fit? "
+Element,
+Behavioral element,
+Structural element,
+External behavioral element,
+,
+Internal behavioral element,
+,
+Triggers,
+,
+Active structure element,
+,
+Passive structure element,
+,
+External active structure element,
+,
+Internal active structure element,
+,
+Objects,Particular instances of things with extensions in space and time
+Properties,Inherent behavior-oriented qualities possessed by entities that define their nature. 
+Framing,
+,
+,
+Narratives,
+Relationships,Connections between entities that define how they interact and relate to each other.
+Concepts,Abstract general notions or mental representations of categories or objects
+Cognitive framing,
+Data,"Raw information collected through observations, measurements, or research. "
+Entities,items of definition or reference that claim independent existence and a distinctive identify
+Attention,
+Emotions,
+Reasoning,
+Things,"Idealized, holistic classes that we mentally organize reality into to communicate core properties that justify treating them together as one conceptualization"
+Form,
+Metaphysics,
+,"whether used as a subject or as an object, existing actually or potentially, and conceptualized concretely or abstractly, as described <a href=""$inet://https://en.wikipedia.org/wiki/Entity""><font color=""#0000ff""><u>here</u></font></a>. "
+,"whether used as a subject or as an object, existing actually or potentially, and conceptualized concretely or abstractly, as described <a href=""$inet://https://en.wikipedia.org/wiki/Entity""><font color=""#0000ff""><u>here.</u></font></a>"
+Compounds,"Two or more elements chemically bonded. Examples: Water (H₂O), carbon dioxide (CO₂)"
+Mixtures,Combinations of two or more substances physically blended but not chemically bonded
+Homogeneous Mixtures,"Uniform composition. Examples: Saltwater, air"
+,
+Heterogeneous Mixtures,"Non-uniform composition. Examples: Salad, sand and iron filings"
+,
+Natural objects,
+Natural objects,"<ul>
+	<li><b>Living Organisms</b>: Animals, plants, fungi, microorganisms.</li>
+</ul>
+<ul>
+	<li><b>Non-living Elements</b>: Rocks, minerals, water, air.</li>
+</ul>"
+,
+Man-made objects,"<ul>
+	<li><b>Technology</b>: Systems, equipment, vehicles, networks</li>
+	<li><b>Structures</b>: Buildings, bridges, roads, infrastructure</li>
+	<li><b>Agricultural products</b></li>
+	<li><b>Energy stores</b></li>
+	<li><b>Stores of value</b></li>
+</ul>"
+,
+Conceptual Entities,"<ul>
+	<li><b>Ideas</b>: Theories, beliefs, plans</li>
+	<li><b>Concepts</b>: Freedom, justice, beauty</li>
+</ul>"
+,
+Abstract things,"<ul>
+	<li><b>Mathematical Entities</b>: Numbers, shapes, equations</li>
+	<li><b>Linguistic entities</b>: Words, sentences, languages</li>
+</ul>"
+,
+,
+Phenomena,"Any observable event, occurrence, or process that can be studied or experienced. "
+,
+Substances,"Specific forms of matter with uniform properties which is often considered the primary constituent of reality. 
+"
+Investigations,
+Probe opportunities,"Gathering data through experiments, observations, or surveys"
+Verification and validation,Checking the accuracy and consistency of the data
+Analysis,Interpreting data through statistical methods or analytical models
+Peer reviews,Soliciting and dispositioning feedback from experts re the data and methods
+Findings,"Sharing findings with the broader community through journals, networks, reports, and presentations"
+Acceptance by stakeholders,"The target community accepts the data as factual and relevant
+
+"
+Verification metamodel,
+,Concrete
+,Abstract
+Actions,
+Ontology,
+Ontology,
+Ontology,
+Physical reality,
+,Particulars
+Truth,"Statements, propositions, and beliefs that align with facts or reality. A statement is true if it accurately reflects the state of affairs it describes. Truth is the foundational concept that underpins verifiable facts, ensuring consistency, objectivity, and coherence in our understanding of reality. "
+Functions,
+Agents,"Autonomous entities that can perceive their environment, make decisions, and perform actions to achieve specific goals."
+,
+,Universals
+Attributes,Features that provide information about an entity and describe specific details to identify or classify it
+Associations,"Represents a structural relationship between elements, where one element is connected to another.
+
+Depicted by solid line connecting elements
+"
+Correspondence,Truth corresponds to reality or facts. A statement is true if it accurately represents the state of affairs in the real world.
+Consistency,Truth is consistent and coherent with other established truths. It does not contradict other known facts or truths.
+Objectivity,Truth is objective and independent of individual beliefs or perceptions. It remains true regardless of subjective opinions.
+Universality,"Truth is universal and applies to all individuals and contexts. It is not limited to specific cultures, times, or places."
+Verifiability,"Truth can be verified or tested through evidence, observation, or experimentation. It can be demonstrated to be true."
+Immutability,"Truth is unchanging and remains constant over time. Once established, it does not alter."
+Explanatory power,Truth provides explanations for phenomena and enhances understanding. It offers insights into the workings of the world
+Pragmatism,Truth is practical and has utility. It can be applied to solve problems and achieve desired outcomes.
+Dependency,"Indicates that one element depends on another. If the dependent element changes, it may impact the element that depends on it.
+
+Represented by dashed line with open arrowhead pointing to dependent element"
+Generalization,"Shows an inheritance relationship, where a more specific element (child) inherits the properties and behaviors of a more general element (parent).
+
+Represented by solid line with hollow triangle pointing to parent element
+"
+Realization,"Indicates that one element (usually an interface or requirement) is implemented or satisfied by another element.
+
+Represented by dashed line with hollow triangle pointing to realized element
+"
+Containment,"Specifies that one element is contained within another, often used to represent hierarchical structures.
+
+Depicted in package diagrams by nesting them"
+Refinement,"Links an abstract element to a more concrete element that refines or implements it.
+
+Represented using same convention as dependency with label &lt;&lt;refine&gt;&gt;
+"
+Trace,"Establishes a traceability relationship between elements, indicating that one element is related to another in some way, often used for requirements traceability."
+ProxyConnector,
+Interpretations,
+Start,
+Results,
+Charter,
+CallBehavior1,
+,"Assertions of ""True"" and ""False"" stand only for a general dimension of being: one in which assertions can be limited within defined circumstances, for a particular audience, given prescribed intentions and asumptions, and towards achievement of specific purposes."
+file:///C:/Users/bryan/OneDrive/Documents/Robot/book/Node16675.ht,
+Knowledge,"Knowledge is the understanding and awareness of justified true beliefs gained through experience, education, and the application of information. It involves cognitive processing, synthesis, and interpretation to leverage connections between different pieces of information and their meaning."
+Understanding,
+Wisdom,The highest level of cognitive processing involves the ability to make sound judgments and decisions based on deep understanding and experience.
+Intentions,"The aims, plans, or purposes that drive an agent to act in a certain way, through  conscious decisions to perform specific actions to achieve desired outcomes."
+file:///C:/Users/bryan/OneDrive/Documents/Robot/book/Node3779.html,
+Know what,
+ProxyConnector,
+ProxyConnector,
+Know how,
+,Some properties emerge at a particular higher level of reality and nothing like them is found at the level of their parts. 
+,"<b>Intrinsic</b>: Properties inherent to an object, such as mass, shape, and color.
+<b>Extrinsic</b>: Properties dependent on the object's relationship to other things, such as location or ownership."
+,"<b>Universals</b>: Properties or qualities that multiple entities can have in common, such as redness or beauty.
+<b>Particulars</b>: Individual entities that possess unique properties, like a specific apple or a particular painting."
+,"<b>Physical Substance</b>: Refers to physical matter, the stuff that makes up the tangible world, often considered the primary constituent of reality. It refers to that which exists independently and is the bearer of properties or attributes.
+<b>Immaterial Substance</b>: Refers to non-physical entities. Examples include the mind or soul, which some philosophies argue are distinct from the body.
+"
+Biases,
+Heuristics,
+,"The ability to grasp the meaning of information, texts, or concepts by decoding and interpreting data to recognize what is being communicated literally without delving into implications or connections"
+,"Connecting new information with context including existing knowledge to make sense and gain insight of its broader implications, significance, and relationships."
+Cognition,"Cognitive processes provide the foundation for interpreting and responding to the world, ultimately guiding behavior.
+"
+Information management,
+Knowledge management,
+,
+,
+target,
+,
+,
+ProxyConnector,
+,Consider depracating this
+Observations,
+,Gather information using senses or tools
+,Drawing upon current and historical information to anticipate future trends and implications
+,Putting information into action that will achieve meaningful progress towards goals
+Inference,The act of deducing new information based on what is already known
+,"<font color=""#000080""><b>SwiftSure.Pro</b></font>
+<font color=""#0000ff"">Version 2025-1</font>"
+,"<font color=""#000080""><b>SwiftSure.Pro</b></font>
+<font color=""#0000ff"">Version 2025-1</font>"
+,Emergence &gt; aggregation (properties)
+,"Qualitative or quantitative
+Structured or unstructured"
+ClassifierBehaviorProperty1,
+Rationality,
+,
+Contextual understanding,
+Consistent with other facts,
+Based on evidence,
+Objectively expressed,
+Relevant to context,
+Clear definition,
+Precisely scoped,
+Source has credibility,
+Rationale logically coherent,
+Practical,
+Insightful,
+Ethical,
+Outcome-oriented,
+Deliberate,
+Motivational,
+Cardinality,
+Identity,
+Persistence,
+Scope,
+,
+,
+,"<font color=""#000080""><b>SwiftSure.Pro</b></font>
+<font color=""#0000ff"">Version 2025-1</font>"
+,
+Nesting,"Depicts a representation of containment or composition, used to show hierarchical relationships in diagrams without defining ownership and namespace
+
+Represented by a solid line with a cross-hatched circle on the parent end"
+Infrastructure,
+Patterns,
+Situations,
+Ideas,"Specific instances of thinking that manifest as thoughts, plans, or opinions"
+Nodes,
+Objects,
+Operations,Capabilities that can be performed by and are provided by a class of entities
+Decisions,
+Inherent and Fundamental beliefs,"<ul>
+	<li><b>Existential</b>: revolve around questions of existence, purpose, and the nature of reality. Examples include beliefs about life after death, the existence of a higher power, or the meaning of life.</li>
+	<li><b>Epistemological</b>: concern the nature and scope of knowledge and understanding. They include concepts like skepticism, empiricism, and rationalism, which dictate how individuals perceive and acquire knowledge.</li>
+</ul>"
+Normative and Ethical,"<ul>
+	<li><b>Moral Principles</b>: ideas about what is right and wrong, often influenced by cultural, religious, or philosophical frameworks. Examples include utilitarianism, deontology, and virtue ethics.</li>
+	<li><b>Justice and Fairness</b>: deal with the principles of equality, rights, and fairness in human interactions. They shape beliefs about law, governance, and social justice.</li>
+</ul>"
+Aesthetic and Creative,"<ul>
+	<li><b>Artistic Expression</b>: involve concepts of beauty, creativity, and artistic value. They influence our appreciation of art, literature, music, and other forms of creative expression.</li>
+	<li><b>Cultural Norms</b>: shared ideas within a community about what is considered acceptable or valuable in terms of customs, traditions, and cultural practices.</li>
+</ul>"
+Pragmatic and Functional,"<ul>
+	<li>S<b>cientific and Technological</b>: grounded in empirical evidence and rational thought. They encompass scientific theories, technological advancements, and practical applications of knowledge.</li>
+	<li><b>Economic and Political</b>: ideas about the organization and management of resources, power, and societal structures. They include economic theories, political ideologies, and governance models.</li>
+</ul>"
+Personal and Psychological,"<ul>
+	<li><b>Identity and Self-concept</b>: These ideas pertain to one's understanding of self and personal identity. They shape how individuals see themselves and their roles in the world.</li>
+	<li><b>Motivational and Aspirational</b>: These concepts include goals, ambitions, and personal motivations. They drive behavior and decision-making processes.</li>
+</ul>"
+,"<font color=""#000080""><b>SwiftSure.Pro</b></font>
+<font color=""#0000ff"">Version 2025-1</font>"
+,"<font color=""#000080""><b>SwiftSure.Pro</b></font>
+<font color=""#0000ff"">Version 2025-1</font>"

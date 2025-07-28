@@ -656,10 +656,10 @@ IMG {
 }
 
 .diagram_image {
-    max-width: 1900px;
+    max-width: 990px;
 	overflow: auto;
 	height: auto;
-	max-height: 3000px;
+	max-height: 800px;
 }
 
 .blank_diagram{

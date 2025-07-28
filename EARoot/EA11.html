@@ -1,0 +1,240 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Risk metamodel</title>
+<link href="../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Risk metamodel </h1>
+			<!-- <img class="header_image" src="../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="EA15.html">Adaptation Viewpoint</a> / <a href="EA11.html">Risk metamodel</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../images/182.png" alt="Diagram"/> <a href="EA1.html">Resources</a></li>
+<li><img src="../images/182.png" alt="Diagram"/> <a href="EA3.html">System context</a></li>
+<li><img src="../images/175.png" alt="Diagram"/> <a href="EA5.html">Architecture Metamodel</a></li>
+<li><img src="../images/182.png" alt="Diagram"/> <a href="EA7.html">System architecture</a></li>
+<li><img src="../images/175.png" alt="Diagram"/> <a href="EA9.html">Requirements metamodel</a></li>
+<li><img src="../images/175.png" alt="Diagram"/> <a href="EA11.html">Risk metamodel</a></li>
+<li><img src="../images/175.png" alt="Diagram"/> <a href="EA13.html">Verification metamodel</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA42.html">Adaptation viewpoint</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA43.html">Applicability</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA44.html">Areas of responsibility</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA45.html">Builds</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA46.html">Concerns</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA48.html">Contributing causes</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA49.html">Coverage analysis</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA51.html">Environment</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA52.html">Events</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA53.html">Impact assessment</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA55.html">Issues</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA24.html">Mental models</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA25.html">Metaphysical Grounding</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA26.html">Mind and Consciousness</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA57.html">Mitigation activities</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA58.html">Model</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA27.html">Possibility and Necessity</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA65.html">Purpose</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA66.html">Quality criterion</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA67.html">Rationale</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA68.html">ReqID</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA74.html">Reqmts substantiation</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA76.html">Requirements</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA82.html">Risk management</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA85.html">Risk substantiation</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA88.html">RiskID</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA89.html">Risks</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA90.html">Satisfaction of entry criteria</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA32.html">Space and Time</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA93.html">Stakeholder needs</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA95.html">Structure</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA97.html">Talent</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA34.html">Universals and Particulars</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA98.html">V&V activities</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA99.html">V&V data</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA100.html">V&V Methods</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA101.html">V&V network</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA102.html">V&V procedures</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA103.html">Version identifier</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA104.html">View</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA105.html">Viewpoints</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA106.html">Work package</a></li>
+<li><img src="../images/25.png" alt="Object"/> <a href="EA59.html">Operational: Environment</a></li>
+<li><img src="../images/25.png" alt="Object"/> <a href="EA91.html">Simulated: Environment</a></li>
+<li><img src="../images/118.png" alt="Part"/> <a href="EA47.html">Consequences</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA50.html">Determination of compliance</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA54.html">Impact characterization</a></li>
+<li><img src="../images/99.png" alt="UMLDiagram"/> <a href="EA23.html">Interactions</a></li>
+<li><img src="../images/118.png" alt="Part"/> <a href="EA56.html">Likelihood</a></li>
+<li><img src="../images/118.png" alt="Part"/> <a href="EA69.html">Reqmts affected parties</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA70.html">Reqmts approval state</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA71.html">Reqmts areas of concern</a></li>
+<li><img src="../images/118.png" alt="Part"/> <a href="EA72.html">Reqmts definition</a></li>
+<li><img src="../images/118.png" alt="Part"/> <a href="EA73.html">Reqmts primary owner</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA75.html">Reqmts type</a></li>
+<li><img src="../images/118.png" alt="Part"/> <a href="EA77.html">Risk affected parties</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA78.html">Risk areas of concern</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA79.html">Risk characterization</a></li>
+<li><img src="../images/118.png" alt="Part"/> <a href="EA80.html">Risk definition</a></li>
+<li><img src="../images/118.png" alt="Part"/> <a href="EA81.html">Risk Exposure</a></li>
+<li><img src="../images/118.png" alt="Part"/> <a href="EA83.html">Risk primary owner</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA84.html">Risk priority</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA86.html">Risk type</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA87.html">Risk workflow state</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA92.html">Stage of risk dev</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA94.html">State of reqmts dev</a></li>
+<li><img src="../images/99.png" alt="UMLDiagram"/> <a href="EA33.html">System context</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA96.html">System hierarchy</a></li>
+<li><img src="../images/99.png" alt="UMLDiagram"/> <a href="EA35.html">Verification metamodel</a></li>
+<li><img src="../images/99.png" alt="UMLDiagram"/> <a href="EA36.html">Verification metamodel</a></li>
+<li><img src="../images/99.png" alt="UMLDiagram"/> <a href="EA37.html">Verification metamodel</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA12.png" usemap="#EA12" border="0" />
+
+<MAP NAME="EA12">
+<area shape="rect" coords="62,563,140,599" href="EA17.html" target="_self">
+<area shape="rect" coords="915,435,1015,527" href="EA85.html" target="_self">
+<area shape="rect" coords="985,240,1085,351" href="EA84.html" target="_self">
+<area shape="rect" coords="233,187,333,215" href="EA43.html" target="_self">
+<area shape="rect" coords="383,266,483,300" href="EA88.html" target="_self">
+<area shape="rect" coords="639,684,739,769" href="EA92.html" target="_self">
+<area shape="rect" coords="522,274,672,359" href="EA86.html" target="_self">
+<area shape="rect" coords="484,709,564,749" href="EA80.html" target="_self">
+<area shape="rect" coords="701,274,801,385" href="EA79.html" target="_self">
+<area shape="rect" coords="831,240,944,403" href="EA78.html" target="_self">
+<area shape="rect" coords="530,498,684,603" href="EA57.html" target="_self">
+<area shape="rect" coords="347,535,467,574" href="EA82.html" target="_self">
+<area shape="rect" coords="761,30,841,70" href="EA83.html" target="_self">
+<area shape="rect" coords="353,191,433,231" href="EA77.html" target="_self">
+<area shape="rect" coords="584,405,684,503" href="EA87.html" target="_self">
+<area shape="rect" coords="414,382,514,462" href="EA48.html" target="_self">
+<area shape="rect" coords="692,191,772,231" href="EA47.html" target="_self">
+<area shape="rect" coords="592,191,672,231" href="EA56.html" target="_self">
+<area shape="rect" coords="642,91,722,131" href="EA81.html" target="_self">
+<area shape="rect" coords="120,70,220,150" href="EA76.html" target="_self">
+<area shape="rect" coords="353,72,453,152" href="EA89.html" target="_self">
+<area shape="rect" coords="134,1084,1210,1490" href="EA38.html" target="_self">
+<area shape="rect" coords="10,10,1247,1527" href="EA1.html" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Risk metamodel : SysML Block Definition diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">12/7/2016 12:00:00 AM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">5/27/2025 6:44:05 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Bryan Pflug</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{0FEAFD71-DE77-40e7-8386-5385B8A94E77}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+
